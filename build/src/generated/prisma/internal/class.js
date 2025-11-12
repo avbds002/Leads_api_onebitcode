@@ -18,7 +18,7 @@ const config = {
             "value": "prisma-client"
         },
         "output": {
-            "value": "C:\\Users\\andre.silva\\Desktop\\informacoes\\ws-programacao\\projeto-final-prismaORM-nodejs\\src\\generated\\prisma",
+            "value": "C:\\ws-programacao\\onebitcode\\Leads_api_onebitcode\\src\\generated\\prisma",
             "fromEnvVar": null
         },
         "config": {
@@ -32,7 +32,7 @@ const config = {
             }
         ],
         "previewFeatures": [],
-        "sourceFilePath": "C:\\Users\\andre.silva\\Desktop\\informacoes\\ws-programacao\\projeto-final-prismaORM-nodejs\\prisma\\schema.prisma",
+        "sourceFilePath": "C:\\ws-programacao\\onebitcode\\Leads_api_onebitcode\\prisma\\schema.prisma",
         "isCustomOutput": true
     },
     "relativePath": "../../../prisma",
