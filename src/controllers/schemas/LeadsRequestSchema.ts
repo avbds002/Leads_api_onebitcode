@@ -16,3 +16,20 @@ export const CreateLeadRequestSchema = z.object({
     ])
     .optional(),
 });
+
+export const UpdateLeadRequestSchema = z.object({
+  name: z.string().optional(),
+  email: z.string().optional(),
+  phone: z.string().optional(),
+  status: z
+    .enum([
+      "New",
+      "Contacted",
+      "Qualified",
+      "Converted",
+      "Unresponsive",
+      "Disqualified",
+      "Archived",
+    ])
+    .optional(),
+});
